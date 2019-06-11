@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Clock JavaScript</title>
+    <link rel="stylesheet" href="/style.css">
+</head>
+<body>
+    <div id="clockContainer">
+
+        <div id="analogDiv">
+            <h1 class="title">Analog Clock</h1>
+            <canvas id="canvasAnalog" width="500" height="500"></canvas>
+        </div>
+
+        <div id="digitalDiv">
+            <h1 class="title">Digital Clock</h1>
+            <div id="digitalClock" class="clock" onload="showTime()"></div>
+        </div>
+
+    </div>
+    <script src="js/analog.js"></script>
+    <script src="js/digital.js"></script>
+</body>
+</html>

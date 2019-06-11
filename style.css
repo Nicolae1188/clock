@@ -1,0 +1,54 @@
+@import url('https://fonts.googleapis.com/css?family=Josefin+Sans&display=swap');
+
+body {
+    background-color: rgb(168, 153, 134);
+    margin: 0%;
+    padding: 0%;
+}
+#clockContainer {
+    display: grid;
+    grid-template-areas: "analogDiv analogDiv"
+                         "digitalDiv digitalDiv";
+}
+.title {
+    text-decoration: underline white;
+    font-family: 'Josefin Sans', sans-serif;
+}
+#analogDiv {
+    float: left;
+    margin-top: 20%;
+    margin-left:20%;
+    width: 800px; 
+    height: 600px; 
+    background-color: rgb(48, 39, 27);
+    text-align: center;
+    color: white;
+    box-shadow: 0 0 20px black;
+    border-radius: 2%; 
+    
+}
+
+
+#digitalDiv {
+    float: right;
+    text-align: center;
+    margin-top: 20%;
+    margin-left: 20%;
+    width: 800px; 
+    height: 600px; 
+    background-color: rgb(48, 39, 27);
+    text-align:center;
+    color: white;
+    box-shadow: 0 0 20px black;
+    border-radius: 2%; 
+}
+
+#digitalClock {
+    margin-top: 25%;
+}
+.clock {
+    color: white;
+    font-size: 60px;
+    letter-spacing: 7px;
+    padding: 5px 50px 250px 50px;
+}
